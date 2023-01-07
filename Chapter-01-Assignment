@@ -1,0 +1,44 @@
+**What is Emmet?
+Emmet is a plugins which helps you with shortcuts to write HTML CSS code easily.
+
+**Difference between a Library and Framework?
+Framework and library both are block of code written by someone else that help solve common problems in a particular programming language. 
+Library is a collection of functions developers call whenever needed according to the flow/requirement. Developer has control over the code. 
+Your code -> (needs some functionality) -> calls -> library
+Framework is a structure to which the developer has to provide the contents of the operation. So basically 
+Difference
+When using a library, the control remains with the developer who tells the application when to call library functions. 
+When using a framework, the control is reversed, which means that the framework tells the developer where code needs to be provided and calls it as it requires.
+
+What is CDN? Why it is used?
+Content Delivery Network.Content delivery networks (CDNs) are used to deliver content from a network of servers located in strategic locations around the world. C
+DNs can be used to deliver a variety of content, including web pages, videos, and images. 
+There are several benefits to using a CDN, including:
+Increased reliability. Improved performance. Security. Cost Saving.
+
+Why React is known as React?
+React is a JavaScript library for building user interfaces, and it is known as React because it was designed to be reactive. When used to build a user interface, React creates a virtual representation of the interface in memory, and it uses a technique called "reconciliation" to update the actual interface in the browser.
+The idea behind this is to make the process of updating the user interface as efficient as possible. When an event occurs that requires the interface to be updated, React can quickly determine which parts of the interface need to be changed, and it can update those parts efficiently, without having to rebuild the entire interface from scratch.
+The use of a virtual representation of the interface and the efficient updating process are what make React "reactive," and this is why it is known as React.
+
+What is crossorigin in script tag?
+The crossorigin attribute allows the page to specify that the script should be treated as a cross-origin resource,
+and that it should be allowed to make requests to other origins. 
+
+What is diference between React and ReactDOM?
+React is responsible for managing the UI and the data that powers it, 
+while ReactDOM is responsible for rendering the UI to the DOM and updating it when the data changes.
+
+What is difference between react.development.js and react.production.js files via CDN?
+The react.development.js file is the development version of the React library. 
+It includes additional features that are useful for debugging and developing React applications, such as the ability to inspect the component tree in the browser's developer console. 
+However, because these additional features add to the size of the library, the development version of React is generally larger than the production version.
+
+The react.production.js file is the production version of the React library. 
+It is optimized for performance and is generally smaller in size than the development version. 
+It does not include the additional debugging features that are present in the development version.
+
+
+
+
+
