@@ -1,0 +1,39 @@
+What is NPM?
+NPM is a package manager for Javascript programming language. It is the default PM for JS runtime environment. With the help of NPM, you can install and manage packages.
+With NPM, you can install and manage packages (collections of code that are useful for a variety of projects) that are published in the NPM registry. These packages can contain libraries, tools, or even applications. You can use NPM to install packages from the registry, as well as publish your own packages to the registry so that other developers can use them.
+NPM is an essential tool for any developer who works with JavaScript and Node.js, as it makes it easy to share and reuse code, as well as manage dependencies (libraries that are required by your code).
+
+What is a Parcel? Why do we need it?
+Parcel is a web application bundler. It is a tool that takes your source code and assets, such as HTML, CSS, and JavaScript files, 
+and transforms them into a single bundle that can be run in a web browser.
+It can simplify the development process by automating tasks such as code transformation, asset bundling, and dependency management.
+
+What is parcel-cache?
+Parcel-cache is a cache server for Parcel, a web application bundler. 
+It is a tool that can be used to store the results of Parcel builds in a cache, so that subsequent builds can be faster by reusing the cached results.
+
+What is npx?
+npx is a tool that is included with node.js and npm that allows you to execute the packages.
+One of the main benefits of npx is that it allows you to easily run command-line scripts that are installed as dependencies of your project, without having to install them globally on your system. 
+This can be useful if you want to use a tool in your project that is only needed for development, and you don't want to clutter your global environment with it.
+
+- What is difference between `dependencies` vs `devDependencies`?
+In a package.json file, dependencies and devDependencies are both properties that are used to specify the packages that your project depends on.
+dependencies is a list of packages that are required for your project to run in production. These are packages that your application depends on in order to function correctly. When you install a package as a dependency, it will be available in the node_modules directory of your project, and it will be included in the production bundle when you build your application.
+devDependencies, on the other hand, is a list of packages that are only needed for development, such as build tools and testing libraries. These packages are not required for your application to run in production, and they will not be included in the production bundle.
+In general, you should only list packages in dependencies that are required for your application to function correctly in production. All other packages, such as build tools and testing libraries, should be listed in devDependencies. This helps to keep the production bundle small and efficient, as it only includes the packages that are actually needed at runtime.
+
+What is Tree Shaking?
+Tree shaking is a term that refers to the process of removing unnecessary code from a JavaScript bundle. 
+This can be used to reduce the size of the bundle and improve the performance of a web application.
+Enabling tree shaking in a Parcel project is just one of the ways that you can optimize the performance of your application. 
+There are many other performance optimization techniques that you can use in combination with tree shaking to further improve the performance of your application.
+
+What is Hot Module Replacement?
+Hot Module Replacement (HMR) is a feature that allows a web application to update itself without requiring a full page refresh. 
+When HMR is enabled, the application can update individual modules of the application in real time, without losing the state of the application.
+HMR is often used in development environments to speed up the development process by allowing developers to make changes to the code and see the results immediately, without having to manually refresh the page.
+
+HMR is typically used in development environments, and it is not recommended for use in production environments. In a production environment, 
+you should use a build process that generates a static bundle of your application, which can be served to users without the need for HMR.
+
